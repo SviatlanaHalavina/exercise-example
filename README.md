@@ -16,11 +16,11 @@ src:
 			- constants
 			- fixtures	// to collect mock data for tests
 			- pages	// each page  - > each route
-			- routes
-			- types	// there are might be some routes so we should define pages for each of them
+			- routes // there are might be some routes so we should define pages for each of them
+			- types	 // in case of Flow we can collect Data Type here and use it across files
 			- utils	// string, Data, URl utils
 		- shared	// for small components which might be used in any part of the app, like form elements, buttons, carousels
-					//  it might be split into the same structure as home
+				//  it might be split into the same structure as home
 		- stub	// to collect mock data (useful for tests)
 
   index.js	// Home page
